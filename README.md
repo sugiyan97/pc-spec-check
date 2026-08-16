@@ -10,10 +10,8 @@ Windows / macOS / Linux に対応。Python 版と、Python なしで動く OS �
 |---|---|---|---|
 | `spec_check.py` | Windows / Mac / Linux | 必要 | `python spec_check.py` |
 | `spec_check.bat` | Windows | 不要 | ダブルクリック |
-| `spec_check.command` | macOS | 不要 | ダブルクリック |
 | `spec_check.sh` | macOS / Linux | 不要 | `bash spec_check.sh` |
 
-`spec_check.command` と `spec_check.sh` は中身が同一です。ダブルクリックで動かしたいなら `.command`、テキストとして中身を見たり編集・コピーしたいなら `.sh` を使ってください。
 
 ## 使い方
 
@@ -34,15 +32,7 @@ python spec_check.py
 
 ### macOS（Python なし）
 
-`spec_check.command` をダブルクリックします。「開発元を確認できない」と出て開けない場合は、右クリック →「開く」を選んでください。
-
-ダブルクリックで動かない場合は、ターミナルで一度だけ実行権限を付けてから開くと確実です。
-
-```bash
-chmod +x spec_check.command
-```
-
-コピーや中身確認をしたい場合は `spec_check.sh` を使い、ターミナルから実行します。
+`spec_check.sh` をダブルクリックします。
 
 ```bash
 bash spec_check.sh
