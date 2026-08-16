@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-speccheck.py - PC spec checker (Windows / macOS / Linux)
+spec_check.py - PC spec checker (Windows / macOS / Linux)
 ローカルLLM(Gemma等)を動かす際の目安確認用。
 標準ライブラリのみ。追加インストール不要。
 
 使い方:
-    python speccheck.py
-    (Windowsで python が無い場合は py speccheck.py)
+    python spec_check.py
+    (Windowsで python が無い場合は py spec_check.py)
 """
 
 import platform
